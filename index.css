@@ -1,0 +1,84 @@
+
+body{
+    user-select: none;
+    font-family: 'Amazon Ember' ,sans-serif;
+
+    
+}
+
+
+.container{
+
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    gap: 3rem;
+}
+.product_details{
+    width: 520px;
+}
+.img{
+  
+    height:500px ;
+    object-fit: contain;
+}
+
+.bold{
+ font-weight: bold;   
+ 
+}
+
+.deal{
+    background: #cc0c39;
+    color: snow;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+}
+td{
+    margin-right: 1rem;
+}
+li{
+    margin-bottom: 1rem;
+}
+
+.yellow{
+    color: #f69931;
+}
+
+.amazon{
+    height: 22px;
+    background-color: #232f3e;
+    gap:10px;
+    width:138px;
+    display: flex;
+    float: left;
+
+    /* clip-path: polygon(0,0,100% 0% ,75% 100%, 0% 100%); */
+    
+}
+.aa{
+    margin-left: 5px;
+    color:snow;
+}
+.a{
+    color: rgb(228, 178, 13);
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-right:10px solid transparent;
+    border-top: 22px solid ;
+    float: left;
+    color: #232f3e;
+
+}
+
+a{
+    font-weight: 400;
+    font-size: 14px;
+    text-transform:uppercase;
+    color: #007185;
+    text-decoration: none;
+}
